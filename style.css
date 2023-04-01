@@ -1,0 +1,74 @@
+/* basic selector */
+
+/* p{
+    color: red;
+}
+#fifth{
+    color: purple;
+}
+.pg{
+    color: green !important;
+} */
+section{
+    background-color: black;
+    color: white;
+
+}
+/* Descendant (space) */
+/* section p{
+    color: green;
+} */
+
+/* child (>) */
+/* section > p{
+    color: purple; */
+
+
+/* Adjacent(+) */
+section + div {
+    color: maroon;
+}
+/* Siblings(~) */
+/* section ~ div {
+    color: cyan;
+} */
+
+section div p{
+    font-size: 32px;
+}
+
+/* Attribute selector */
+
+/* [Attribute-name] */
+[href]{
+    text-decoration: none;
+    color: red;
+}
+/* [Attribute-Name="vaule"] */
+
+[href="contact.html"]{
+    background-color: brown;
+    color: white;
+}
+/* element[Attribute-Name] */
+a[href]{
+    text-decoration: line-through;
+    color: yellow;
+}
+/* pseudo-elements Selector */
+p::first-letter{
+    font-size: 32px;
+}
+/* p::first-line{
+    color: cyan;
+} */
+
+/* pseudo-class Selector */
+a:hover{
+    font-size: 44px;
+    cursor: pointer;
+
+}
+p:nth-child(even){
+    color: red;
+}
