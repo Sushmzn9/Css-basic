@@ -1,74 +1,74 @@
-/* basic selector */
+/* .div{
+    box-shadow: 6px 6px rgba(226, 157, 157, 0.281);
+    width: 100px;
+    height: 100px;
+    margin: 4px;
+    border: 3px solid red;
+    background-color: violet
+   
 
-/* p{
-    color: red;
-}
-#fifth{
-    color: purple;
-}
-.pg{
-    color: green !important;
-} */
-section{
-    background-color: black;
-    color: white;
-
-}
-/* Descendant (space) */
-/* section p{
-    color: green;
-} */
-
-/* child (>) */
-/* section > p{
-    color: purple; */
-
-
-/* Adjacent(+) */
-section + div {
-    color: maroon;
-}
-/* Siblings(~) */
-/* section ~ div {
-    color: cyan;
-} */
-
-section div p{
-    font-size: 32px;
+    
 }
 
-/* Attribute selector */
+#box2card{
+    display:inline-block;
+    position: relative;
+    left: 300px;
 
-/* [Attribute-name] */
-[href]{
-    text-decoration: none;
-    color: red;
 }
-/* [Attribute-Name="vaule"] */
+#box3card{
+    display:inline-block;
+    position: relative;
+    left: 600px;
+}
 
-[href="contact.html"]{
-    background-color: brown;
-    color: white;
+#box1card{
+
+    position: fixed;
+    box-shadow: 6px 6px rgba(226, 157, 157, 0.281);
+    
+
 }
-/* element[Attribute-Name] */
-a[href]{
-    text-decoration: line-through;
-    color: yellow;
-}
-/* pseudo-elements Selector */
-p::first-letter{
-    font-size: 32px;
-}
-/* p::first-line{
-    color: cyan;
+.container{
+    
+    height: 1000px;
+    background-video
+border: 3px solid yellowgreen;
+    
+
 } */
 
-/* pseudo-class Selector */
-a:hover{
-    font-size: 44px;
-    cursor: pointer;
+
+#myvideo{
+    position: fixed;
+    right: 0;
+    bottom: 0;
+    min-width: 100%;
+    min-width: 100%;
+    opacity: 0.9;
 
 }
-p:nth-child(even){
-    color: red;
+.div{
+    border: 3px solid black;
+    position: fixed;
+    bottom: 100px;
+    right: 20px;
+    color: black;
+}
+h1{
+    text-align: center;
+}
+
+@media only screen and (max-width: 600px){
+    #myvideo{
+        display: flex;
+        position: fixed;
+        min-width: 100%;
+        min-width: 100%;
+        opacity: 0.9;
+        align-self: center;
+        margin-top: auto;
+    object-position: center;
+    object-fit: cover;
+    }
 }
