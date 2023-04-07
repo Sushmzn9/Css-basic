@@ -1,74 +1,35 @@
-/* .div{
-    box-shadow: 6px 6px rgba(226, 157, 157, 0.281);
-    width: 100px;
-    height: 100px;
-    margin: 4px;
-    border: 3px solid red;
-    background-color: violet
+body,nav
+
+{
+    margin: 0;
+}
+nav{
+margin: 0px;
+padding: 0px;
+display: flex;
+flex-wrap: nowrap;
+justify-content: space-between;
+background-color: rgb(250, 228, 196);
+
+}
+img{
+   margin-left: 27px;
+   margin-top: 20px;
+    
+}
+ul{
+    display: flex;
+    list-style: none;
+    gap: 15px;
+    font-size: 35px;
+    justify-content: end;
+   position: sticky;
+   margin-right: 27px;
+   float: right;
+ 
    
-
-    
 }
-
-#box2card{
-    display:inline-block;
-    position: relative;
-    left: 300px;
-
-}
-#box3card{
-    display:inline-block;
-    position: relative;
-    left: 600px;
-}
-
-#box1card{
-
-    position: fixed;
-    box-shadow: 6px 6px rgba(226, 157, 157, 0.281);
-    
-
-}
-.container{
-    
-    height: 1000px;
-    background-video
-border: 3px solid yellowgreen;
-    
-
-} */
-
-
-#myvideo{
-    position: fixed;
-    right: 0;
-    bottom: 0;
-    min-width: 100%;
-    min-width: 100%;
-    opacity: 0.9;
-
-}
-.div{
+hr{
+    margin: 0;
     border: 3px solid black;
-    position: fixed;
-    bottom: 100px;
-    right: 20px;
-    color: black;
-}
-h1{
-    text-align: center;
-}
-
-@media only screen and (max-width: 600px){
-    #myvideo{
-        display: flex;
-        position: fixed;
-        min-width: 100%;
-        min-width: 100%;
-        opacity: 0.9;
-        align-self: center;
-        margin-top: auto;
-    object-position: center;
-    object-fit: cover;
-    }
 }
